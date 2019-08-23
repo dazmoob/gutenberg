@@ -152,5 +152,63 @@ export const SETTINGS_DEFAULTS = {
 	__experimentalEnableLegacyWidgetBlock: false,
 	__experimentalEnableMenuBlock: false,
 	__experimentalBlockDirectory: false,
+	gradients: [
+		{
+			name: __( 'Pale Pink to Vivid Red Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(247,141,167,1) 0%, rgba(207,46,46,1) 100%)',
+		},
+		{
+			name: __( 'Pale Pink to Vivid Red Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(247,141,167,1) 0%, rgba(207,46,46,1) 100%)',
+		},
+		{
+			name: __( 'Pale cyan blue to Vivid cyan blue Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(142, 209, 252, 1) 0%, rgba(6, 147, 227 , 1) 100%)',
+		},
+		{
+			name: __( 'Pale cyan blue to Vivid cyan blue Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(142, 209, 252, 1) 0%, rgba(6, 147, 227 , 1) 100%)',
+		},
+		{
+			name: __( 'Vivid Green Cyan to Vivid Cyan Blue Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(0, 208, 132, 1) 0%, rgba(6, 147, 227, 1) 100%)',
+		},
+		{
+			name: __( 'Vivid Green Cyan to Vivid Cyan Blue Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(0, 208, 132, 1) 0%, rgba(6, 147, 227, 1) 100%)',
+		},
+		{
+			name: __( 'Luminous Vivid Amber to Luminous Vivid Orange Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%)',
+		},
+		{
+			name: __( 'Luminous Vivid Amber to Luminous Vivid Orange Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%)',
+		},
+		{
+			name: __( 'Black to White Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%)',
+		},
+		{
+			name: __( 'Black to White Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%)',
+		},
+		{
+			name: __( 'Black to Transparent Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)',
+		},
+		{
+			name: __( 'Black to Transparent Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%)',
+		},
+		{
+			name: __( 'White to Transparent Left to Right' ),
+			gradient: 'linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)',
+		},
+		{
+			name: __( 'White to Transparent Top to Bottom' ),
+			gradient: 'linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%)',
+		},
+	],
 };
 
